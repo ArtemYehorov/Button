@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Button"
         mc:Ignorable="d"
-        Title="MainWindow" Height="250" Width="300" MinHeight="250" MinWidth="300">
+        Title="MainWindow" Height="446" Width="518">
     <Grid>
-        <Button Margin="80,80,80,80" Name="button1" Content="0" >
+        <Button Margin="170,164,173,194" Name="button1" Content="0" >
             <Button.Background>
                 <LinearGradientBrush  StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Color="Red" Offset="0.1"/>
@@ -16,5 +16,9 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
+        <TextBox Background="Green" HorizontalAlignment="Left" Margin="33,32,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <ComboBox Background="Aqua" HorizontalAlignment="Left" Margin="325,48,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Background="REd" Content="Button" HorizontalAlignment="Left" Margin="57,319,0,0" VerticalAlignment="Top"/>
+        <Button Background="Yellow" Content="Button" HorizontalAlignment="Left" Margin="285,327,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
